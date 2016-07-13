@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/figs_development
+    username: root
+    password: m0nsterbid
+    driver-class-name: com.mysql.jdbc.Driver
+    continueOnError: true
+    initialize: false
+    initialSize: 0
+    timeBetweenEvictionRunsMillis: 5000
+    minEvictableIdleTimeMillis: 5000
+    minIdle: 0
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
